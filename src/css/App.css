@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+body{
+  height: 100%;
+}
+
+.input-css{
+  position: relative;
+}
+.input-css span{
+  position: absolute;
+  top: 25%;
+  right: 2%;
+  
+}
+
+/* .form-control{
+  margin-top: 0.3rem !important;
+  margin-bottom: 1rem !important;
+} */
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+  /* outline:2px solid var(--Strawberryred) ; */
+  outline: none !important;
+}

@@ -1,0 +1,9 @@
+.input-css{
+    position: relative;
+}
+.input-css span{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    
+}
